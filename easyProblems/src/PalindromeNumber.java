@@ -22,6 +22,7 @@ public class PalindromeNumber {
             num = (num * 10) + rem;
         }
 
+        //True & False
         return real == num && real >= 0;
     }
 }
