@@ -2,7 +2,7 @@ public class PalindromeNumber {
 
     public static void main(String[] args){
 
-        int num = 0;
+        int num = -222;
 
         boolean resBack = isPalindrome(num);
 
