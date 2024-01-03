@@ -29,4 +29,18 @@ public class GCD {
 //
 //        return a;
 //    }
+
+//    public static int gcd(int a, int b){
+//        //Brute-Force
+//
+//        int myGCD = 1;
+//
+//        for(int i=2; i <= Math.min(a,b); i++){                         // for(i = Math.min(a,b); i >= 2; i--)
+//
+//            if(a % i == 0 && b % i == 0) myGCD = i;
+//                                                                       // break;
+//        }
+//
+//        return myGCD;
+//    }
 }
