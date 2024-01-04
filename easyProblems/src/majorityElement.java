@@ -32,7 +32,6 @@ public class majorityElement {
 //        return A[n/2];
 
         /* Boyer-Moore Voting Algorithm */
-
         int count = 0;
 
         int majorityCandidate = 0;
