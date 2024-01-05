@@ -13,9 +13,9 @@ public class print1toNwithRecursion {
 
     static int[] recFunc(int n, int[] arr){
 
-        if(n <= 0) return arr;
+        if(n <= 0) return arr;        // Base condition
 
-        recFunc(n - 1, arr);
+        recFunc(n - 1, arr);         // Recursion 
 
         arr[n-1] = n;
 
