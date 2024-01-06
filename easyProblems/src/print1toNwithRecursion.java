@@ -15,7 +15,7 @@ public class print1toNwithRecursion {
 
         if(n <= 0) return arr;        // Base condition
 
-        recFunc(n - 1, arr);         // Recursion 
+        recFunc(n - 1, arr);         // Recursion
 
         arr[n-1] = n;
 
