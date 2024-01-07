@@ -19,8 +19,8 @@ public class stringPalindrome {
 
         if(i >= s.length()/2) return true;
 
-        if(s.charAt(i) != s.charAt(s.length() - i - 1)) return false;
+        if(s.charAt(i) != s.charAt(s.length() - i - 1)) return false;                // Compare the char1[0] & char2[n-1], then increase char1 and reduce char2 and check. 
 
-        return palString(s, i+1);
+        return palString(s, i+1);                                                    //recursively it will increase i
     }
 }
