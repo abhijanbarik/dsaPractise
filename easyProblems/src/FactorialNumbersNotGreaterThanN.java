@@ -21,9 +21,13 @@ public class FactorialNumbersNotGreaterThanN {
     static void factNum(long n, long fact, long i, List<Long> arr){
 
         if(fact > n) return;
+
         arr.add(fact);
+
         i++;
+
         fact = fact * i;
+
         factNum(n, fact, i, arr);
 
 

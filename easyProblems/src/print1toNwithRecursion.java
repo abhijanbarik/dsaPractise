@@ -6,19 +6,16 @@ public class print1toNwithRecursion {
         System.out.println("Please enter a number: ");
         int num = sc.nextInt();
         int[] arr = new int[num];
-        int[] res;
-        res = recFunc(num, arr);
-        System.out.println(Arrays.toString(res));
+        recFunc(num, arr);
+        System.out.println(Arrays.toString(arr));
     }
 
-    static int[] recFunc(int n, int[] arr){
+    static void recFunc(int n, int[] arr){
 
-        if(n <= 0) return arr;        // Base condition
+        if(n <= 0) return;        // Base condition
 
         recFunc(n - 1, arr);         // Recursion
 
         arr[n-1] = n;                   // This is called Tail Recursion
-
-        return arr;
     }
 }
