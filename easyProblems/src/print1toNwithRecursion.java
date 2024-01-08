@@ -17,7 +17,7 @@ public class print1toNwithRecursion {
 
         recFunc(n - 1, arr);         // Recursion
 
-        arr[n-1] = n;
+        arr[n-1] = n;                   // This is called Tail Recursion
 
         return arr;
     }
