@@ -17,7 +17,7 @@ public class pattern22 {
 
             for(int col = 0; col < numUntil; col++){
 
-                int atEveryIndex = n - Math.min(Math.min(col, row), Math.min((numUntil-1) - row, (numUntil-1) - col));
+                int atEveryIndex = n - Math.min(Math.min(col, row), Math.min((numUntil-1) - row, (numUntil-1) - col));                  //Formula to generate right number at every place.
 
                 System.out.print(atEveryIndex + " ");
             }
