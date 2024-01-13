@@ -10,6 +10,7 @@ public class highestAndLowestFrequency {
 
     static void maxAndMin(int[] arr){
 
+    // TC -> O(N) and SC - > 0(N)
     int maxFreq = Integer.MIN_VALUE, minFreq = Integer.MAX_VALUE, maxEle = 0, minEle = 0;
 
     Map<Integer, Integer> hm = new HashMap<>();

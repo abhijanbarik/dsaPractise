@@ -32,19 +32,36 @@ public class majorityElement {
 //        return A[n/2];
 
         /* Boyer-Moore Voting Algorithm */
-        int count = 0;
+//        int count = 0;
+//
+//        int majorityCandidate = 0;
+//
+//        for(int i = 0; i < A.length; i++){
+//
+//            if(count == 0) majorityCandidate = A[i];
+//
+//            if(majorityCandidate == A[i]) count++;
+//
+//            else count--;
+//        }
+//
+//        return majorityCandidate;
 
-        int majorityCandidate = 0;
+        int majorityElement = 0, n = A.length;
 
-        for(int i = 0; i < A.length; i++){
+        for (int currBit = 0; currBit < 32; currBit = currBit + 1)
+        {
+            int countOnes = 0;
+            for (int i = 0; i < n; i = i + 1)
+            {
+                if ((A[i] & (1 << currBit)) != 0)
+                    countOnes = countOnes + 1;
+            }
 
-            if(count == 0) majorityCandidate = A[i];
-
-            if(majorityCandidate == A[i]) count++;
-
-            else count--;
+            if (countOnes > n / 2)
+                majorityElement = majorityElement + (1 << currBit);
         }
 
-        return majorityCandidate;
+        return majorityElement;
     }
 }
