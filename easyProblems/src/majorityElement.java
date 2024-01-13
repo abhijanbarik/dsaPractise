@@ -48,7 +48,7 @@ public class majorityElement {
 //        return majorityCandidate;
 
 
-
+        //
         int majorityElement = 0, n = A.length;
 
         for (int currBit = 0; currBit < 32; currBit = currBit + 1)
