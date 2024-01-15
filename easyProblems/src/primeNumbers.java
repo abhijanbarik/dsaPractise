@@ -14,7 +14,7 @@ public class primeNumbers {
 
     public static boolean isPrime(int n){
 
-        // TC: O(sqrt(n) & SC: O(1)
+        //TC: O(sqrt(n) & SC: O(1)
         
         if(n == 1) return false;
         for(int i = 2; i*i <= n; i++){
