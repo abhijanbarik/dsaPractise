@@ -2,6 +2,8 @@ public class test {
 
     public static void main(String[] args) {
 
+        //Testing
+
         int N = 36, l = 1, cnt = 0;
 
         int r = N;
