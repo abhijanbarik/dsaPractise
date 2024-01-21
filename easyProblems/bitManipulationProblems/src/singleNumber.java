@@ -9,6 +9,8 @@ public class singleNumber {
 
     static int singleDigit(int[] arr){
 
+        // TC: O(N), SC: O(1)
+
         int res = 0;
 
         for(int i : arr){
