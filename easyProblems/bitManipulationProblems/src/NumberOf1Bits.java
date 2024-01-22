@@ -25,7 +25,7 @@ public class NumberOf1Bits {
         return count;
 
 
-//        TC: O(N) & SC: O(1) -> Brute Force
+//        TC: O(N) & SC: O(1) -> To solve this Brute Force problem we need ArrayList.
 //        int count = 0;
 //        while((num > 0) && (num > 1)){
 //            int rem = num % 2;
