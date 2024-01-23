@@ -38,6 +38,5 @@ public class AddBinaryString {
         }
         // Reverse the final result before converting it to a string
         return result.reverse().toString();
-
     }
 }
