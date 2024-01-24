@@ -11,7 +11,7 @@ public class AddBinaryString {
         String B = sc.next();
 
         String Ans = addBinary(A, B);
-        System.out.println(Ans);
+        System.out.println("The Result string is: " + Ans);
     }
     static String addBinary(String A, String B) {
 
@@ -34,9 +34,7 @@ public class AddBinaryString {
 
           carry = sum / 2;
 
-          lenA--;
-
-          lenB--;
+          lenA--; lenB--;
       }
 
       if(carry > 0) str.insert(0, carry);
