@@ -15,6 +15,9 @@ public class AddBinaryString {
     }
     static String addBinary(String A, String B) {
 
+        //TC -> O(max(A.length(), B.length()))
+        //SC -> max(A.length(), B.length()) + 1
+
         StringBuilder str = new StringBuilder();
 
       int lenA = A.length() - 1, lenB = B.length() - 1, carry = 0;
