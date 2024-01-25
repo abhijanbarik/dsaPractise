@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mediumLevelProblem/bitManipulation/bitManipulation.iml" filepath="$PROJECT_DIR$/mediumLevelProblem/bitManipulation/bitManipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyProblems/bitManipulationProblems/bitManipulationProblems.iml" filepath="$PROJECT_DIR$/easyProblems/bitManipulationProblems/bitManipulationProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dsaPractise.iml" filepath="$PROJECT_DIR$/.idea/dsaPractise.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyProblems/easyProblems.iml" filepath="$PROJECT_DIR$/easyProblems/easyProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediumLevelProblem/mediumLevelProblem.iml" filepath="$PROJECT_DIR$/mediumLevelProblem/mediumLevelProblem.iml" />
     </modules>
   </component>
 </project>
