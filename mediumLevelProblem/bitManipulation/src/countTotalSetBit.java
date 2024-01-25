@@ -9,7 +9,7 @@ public class countTotalSetBit {
     }
     static int countSetBit(int num) {
 
-
+        // TC: O(1) & SC: O(1)
         long N = num + 1, mod = 1000*1000*1000 + 7;
 
         long ans = 0, pow2 = 1;
