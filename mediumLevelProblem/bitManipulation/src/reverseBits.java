@@ -11,7 +11,8 @@ public class reverseBits {
     public static long returnBit(long A) {
 
 
-        // Advance level is not as good as brute force.
+        // Advance level is not as good as brute force TC: O(1) & SC: O(1)
+        
         long rev = 0;
 
         for(int i = 0; i < 32; i++) {
@@ -30,6 +31,7 @@ public class reverseBits {
 
 
         // Brute Force TC: O(1) & SC: O(1)
+        
 //        if (A == 0) return A;
 //        long[] arr = new long[32];
 //        for (int i = 0; i < 32; i++) {
