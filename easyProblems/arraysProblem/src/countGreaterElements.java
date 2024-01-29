@@ -22,11 +22,25 @@ public class countGreaterElements {
 
         int maxVal = Integer.MIN_VALUE, count = 0;
 
-        for(int i : arr){
-            if(maxVal < i) maxVal = i;
+        // Try in single loop
+        for (int i : arr) {
+
+            if (maxVal < i) {
+
+                maxVal = i;
+
+                count = 1;  // Reset count when a new maximum is found
+
+            } else if (maxVal == i) {
+
+                count++;   // Increment count for each occurrence of the current maximum
+            }
         }
 
-        for(int i : arr) if(maxVal == i) count++;
+//        for(int i : arr){
+//            if(maxVal < i) maxVal = i;
+//        }
+//        for(int i : arr) if(maxVal == i) count++;
 
         return n - count;
     }
