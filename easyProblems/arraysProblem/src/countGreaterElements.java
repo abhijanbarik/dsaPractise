@@ -20,6 +20,8 @@ public class countGreaterElements {
 
     static int countMax(int[] arr, int n){
 
+        // TC -> O(1), SC -> O(1).
+
         int maxVal = Integer.MIN_VALUE, count = 0;
 
         // Try in single loop
