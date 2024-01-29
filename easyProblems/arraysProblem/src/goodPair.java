@@ -1,4 +1,4 @@
-public class twoSum {
+public class goodPair {
     public static void main(String[] args) {
 
         int[] arr = new int[]{3, -2, 1, 4, 3, 6, 6};
