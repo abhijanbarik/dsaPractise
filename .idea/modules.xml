@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/easyProblems/arraysProblem/arraysProblem.iml" filepath="$PROJECT_DIR$/easyProblems/arraysProblem/arraysProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediumLevelProblem/bitManipulation/bitManipulation.iml" filepath="$PROJECT_DIR$/mediumLevelProblem/bitManipulation/bitManipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyProblems/bitManipulationProblems/bitManipulationProblems.iml" filepath="$PROJECT_DIR$/easyProblems/bitManipulationProblems/bitManipulationProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dsaPractise.iml" filepath="$PROJECT_DIR$/.idea/dsaPractise.iml" />
