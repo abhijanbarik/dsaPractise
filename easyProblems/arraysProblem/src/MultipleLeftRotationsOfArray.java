@@ -15,6 +15,8 @@ public class MultipleLeftRotationsOfArray {
 
     static int[][] rotateArray(int[] A, int[] B){
 
+        // TC-> O(N^2) & SC-> O(N^2)
+
         int[][] ans = new int[B.length][A.length];
 
         for(int row = 0; row < B.length; row++){
