@@ -9,7 +9,8 @@ public class littlePonny {
     }
 
     static int countNumber(int[] A, int B){
-
+        
+        // TC -> O(N), SC -> O(1)
         int count = 0, flag = 0;
 
         for (int i : A) {
