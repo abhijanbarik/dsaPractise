@@ -11,6 +11,8 @@ public class prefixSum {
 
     static int[] sumArr(int[] arr){
 
+        TC -> O(N) & SC -> O(N)
+
         int[] pf = new int[arr.length];
 
         pf[0] = arr[0];
