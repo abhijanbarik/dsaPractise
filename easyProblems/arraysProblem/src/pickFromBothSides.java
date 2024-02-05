@@ -9,7 +9,7 @@ public class pickFromBothSides {
 
     public static int solve(int[] A, int B) {
 
-        // TC -> O(N) & SC -> O(1)
+        // This approach is using constant space. TC -> O(N) & SC -> O(1)
 
         int ans = 0, n = A.length;
 
