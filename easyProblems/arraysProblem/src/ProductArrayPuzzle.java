@@ -9,6 +9,8 @@ public class ProductArrayPuzzle {
 
     static int[] prefixAndSufix(int[] A){
 
+        // TC -> O(N) & SC -> O(N)
+
         int N = A.length;
 
         int[] pfProd = new int[N];
