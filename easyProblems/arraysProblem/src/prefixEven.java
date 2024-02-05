@@ -11,6 +11,8 @@ public class prefixEven {
 
     static int[] evenIndex(int[] arr){
 
+        // TC: O(N) & SC: O(N)
+
         int[] pfEven = new int[arr.length];
 
         pfEven[0] = arr[0];
