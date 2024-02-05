@@ -6,7 +6,10 @@ public class specialIndex {
 
         System.out.println(solve(arr));
     }
+    
     static int solve(int[] A){
+
+        // TC: O(N) & SC: O(N)
 
         int count = 0;
 
