@@ -12,6 +12,8 @@ public class prefixOdd {
 
     static int[] oddIndex(int[] A){
 
+        // TC: O(N) & O(N)
+
         int[] pfOdd = new int[A.length];
 
         pfOdd[0] = 0;
