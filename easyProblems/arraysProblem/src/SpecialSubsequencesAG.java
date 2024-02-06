@@ -1,4 +1,5 @@
 public class SpecialSubsequencesAG {
+    
     public static void main(String[] args) {
 
         String s = "BAAGDCAGAGGUIBXAGXUAIAG";
@@ -7,6 +8,8 @@ public class SpecialSubsequencesAG {
     }
 
     static int carryForward(String S){
+
+        // Length of String -> TC: O(N) & SC: O(1)
 
         int count = 0, result = 0;
 
