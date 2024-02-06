@@ -10,6 +10,8 @@ public class ClosestMinMax {
 
     static int rangeValue(int[] A){
 
+        // TC: O(N) & SC: O(N)
+
         int maxValue = Integer.MIN_VALUE, minValue = Integer.MAX_VALUE, minIndex = -1, maxIndex = -1, N = A.length;
 
         int ans = N;
