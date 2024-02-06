@@ -59,7 +59,7 @@ public class pickFromBothSides {
 //        }
 //
 //
-//        int ans = Math.max( pfSum[ B-1 ], sfSum[ n-B ] );
+//        int ans = Math.max(pfSum[B-1], sfSum[n-B]);
 //
 //        for(int i = 1; i < B; i++){
 //
