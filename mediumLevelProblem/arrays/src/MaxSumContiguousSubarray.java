@@ -9,6 +9,8 @@ public class MaxSumContiguousSubarray {
 
     static int solve(int[] A) {
 
+        // Kadean's Algorithm -> TC: O(N) & SC: O(1)
+
         int sum = 0, maxValue = A[0];
 
         for(int i = 0; i < A.length; i++){
