@@ -12,6 +12,8 @@ public class LeardersInArray {
 
     static int[] leaderArray(int[] A){
 
+        // TC: O(N) & SC: O(N)
+
         int N = A.length, maxVal = Integer.MIN_VALUE, idx = 0;
 
         int[] res = new int[N];
