@@ -15,7 +15,7 @@ public class SubarrayAverageSum{
 
 
         // Sliding Window Technique
-//        TC: O(N) & SC:O(N)
+        // TC: O(N) & SC:O(N)
 
         int n = A.length;
 
@@ -40,5 +40,33 @@ public class SubarrayAverageSum{
             }
         }
         return result;
+
+
+        // Brute Force Solution 
+        // TC: O(N^2) & SC: O(1) -> We can take decimal to get the actual average of a number. However, if we take int or any othe rdata type like, float it will fail in some Test cases
+        /*int minAvgIndex = 0;
+
+        double minAvg = Double.MAX_VALUE;
+
+        for (int i = 0; i <= A.length - B; i++) {
+
+            double sum = 0;
+
+            for (int j = i; j < i + B; j++) {
+
+                sum = sum + A[j];
+            }
+
+            double avg = sum / B;
+
+            if (avg < minAvg) {
+
+                minAvg = avg;
+                
+                minAvgIndex = i;
+            }
+        }
+
+        return minAvgIndex;*/
     }
 }
