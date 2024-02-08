@@ -10,6 +10,9 @@ public class GoodSubarrays {
 
     static int solve(int[] A, int B) {
 
+
+    // Using carry forward Technique -> TC: O(N) & SC:O(1)
+
         int count = 0;
 
         for(int i = 0; i < A.length; i++){
