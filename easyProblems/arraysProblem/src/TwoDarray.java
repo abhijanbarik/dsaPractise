@@ -11,6 +11,8 @@ public class TwoDarray {
 
     static int[] solve(int[][] A){
 
+        // Column-Sum -> TC: O(N*M), SC: O(N)
+
         int[] res = new int[A[0].length];
 
         for(int col = 0; col < A[0].length; col++){
