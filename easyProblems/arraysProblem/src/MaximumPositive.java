@@ -13,6 +13,8 @@ public class MaximumPositive {
 
     public static int[] solve(int[] A) {
 
+        // TC: O(N) & O(N).
+
         int N = A.length, start = -1, end = -1, len = 0, maxLen = 0, actualStart = -1, actualEnd = -1;
 
         for(int i = 0; i < N; i++){
