@@ -14,7 +14,6 @@ public class ArrayProductPuzzle {
     static int[] solve(int[] A) {
 
 //        This is in-place approach with single loop.
-
 //        TC: O(N) & SC:O(1)
 
         int N = A.length;
