@@ -8,6 +8,8 @@ public class SlidingWindowTechnique {
 
     static int solution(int[] arr, int k){
 
+        // TC: O(N) & SC: O(1).
+
         int maximumSubArray, sum = 0;
 
         for(int i = 0; i < k; i++){
