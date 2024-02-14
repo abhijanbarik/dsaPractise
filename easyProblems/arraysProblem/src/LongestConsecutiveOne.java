@@ -7,6 +7,8 @@ public class LongestConsecutiveOne {
 
     public static int solve(String A) {
 
+        // It's a medium level problem with TC: O(N) & SC: O(1).
+
         int N = A.length();
         int countOne = 0;
         int maxOnes = 0;
