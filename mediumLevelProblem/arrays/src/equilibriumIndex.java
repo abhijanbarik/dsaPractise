@@ -28,5 +28,33 @@ public class equilibriumIndex {
         }
 
         return count;
+
+
+        // Optimising space TC: O(N) & SC: O(1)
+
+        // int totalSum = 0;
+
+        // for (int num : A) {
+
+        //     totalSum = totalSum + num;
+        // }
+
+        // int leftSum = 0;
+
+        // for (int i = 0; i < A.length; i++) {
+
+        //     if (i > 0) {
+
+        //         leftSum = leftSum + A[i - 1];
+        //     }
+
+        //     int rightSum = totalSum - leftSum - A[i];
+
+        //     if (leftSum == rightSum) {
+                
+        //         return i;
+        //     }
+        // }
+        // return -1;
     }
 }
