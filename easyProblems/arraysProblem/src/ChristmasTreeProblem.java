@@ -11,6 +11,8 @@ public class ChristmasTreeProblem {
 
     static int solution(int[] A, int[] B){
 
+        // TC:O(N^2) & SC:O(1)
+
         int minAnswer = Integer.MAX_VALUE;
 
         for(int i = 0; i < A.length; i++){
