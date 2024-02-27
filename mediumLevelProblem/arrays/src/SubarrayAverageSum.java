@@ -43,7 +43,7 @@ public class SubarrayAverageSum{
 
 
         // Brute Force Solution 
-        // TC: O(N^2) & SC: O(1) -> We can take decimal to get the actual average of a number. However, if we take int or any othe rdata type like, float it will fail in some Test cases
+        // TC: O(N^2) & SC: O(1) -> We can take decimal to get the actual average of a number. However, if we take int or any other data type like, float it will fail in some Test cases
         /*int minAvgIndex = 0;
 
         double minAvg = Double.MAX_VALUE;
