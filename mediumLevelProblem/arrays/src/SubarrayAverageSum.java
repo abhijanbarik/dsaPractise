@@ -4,15 +4,14 @@ public class SubarrayAverageSum{
 
     public static void main(String[] args) {
 
-        int[] arr = new int[]{3, 7, 90, 20, 10, 50, 40};
+        int[] arr = new int[]{18,11,16,19,11,9,8,15,3,10,9,20,1,19};
 
-        int B = 3;
+        int B = 1;
 
         System.out.println(solve(arr, B));
     }
 
     static int solve(int[] A, int B) {
-
 
         // Sliding Window Technique
         // TC: O(N) & SC:O(N)
