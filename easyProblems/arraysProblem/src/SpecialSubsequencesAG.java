@@ -2,7 +2,7 @@ public class SpecialSubsequencesAG {
     
     public static void main(String[] args) {
 
-        String s = "BAAGDCAGAGGUIBXAGXUAIAG";
+        String s = "ABDHGAGGBCGAG";
 
         System.out.println(carryForward(s));
     }
