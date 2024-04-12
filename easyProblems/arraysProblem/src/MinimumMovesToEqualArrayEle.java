@@ -12,6 +12,8 @@ public class MinimumMovesToEqualArrayEle {
 
     static int minMoves(int[] nums) {
 
+        // TC: O(n) & SC: O(1)
+
         int minValue = Integer.MAX_VALUE, count = 0;
 
         for (int num : nums) {
