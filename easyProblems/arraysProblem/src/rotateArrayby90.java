@@ -16,6 +16,8 @@ public class rotateArrayby90 {
 
     public static int[][] rotateArray(int[][] A){
 
+        // TC: O(N^2) & SC: O(N^2)
+
         int N = A.length;
 
         for(int row = 0; row < N; row++){
