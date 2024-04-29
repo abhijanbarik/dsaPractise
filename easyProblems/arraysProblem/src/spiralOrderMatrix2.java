@@ -16,7 +16,7 @@ public class spiralOrderMatrix2 {
 
     public static int[][] spiralMatrix (int A){
 
-        TC: O(N^2) & SC: O(N^2)
+//        TC: O(N^2) & SC: O(N^2)
 
         int[][] mat = new int[A][A];
 
