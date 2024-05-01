@@ -4,9 +4,9 @@ public class LargestNumber {
 
     public static void main(String[] args) {
 
-        List<Integer> arr = new ArrayList<>(Arrays.asList(3, 30, 34, 5, 9));
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(3, 30, 34, 5, 9));
 
-        String ans = largestNumber((ArrayList<Integer>) arr);
+        String ans = largestNumber(arr);
 
         System.out.println(ans);
     }
@@ -44,14 +44,14 @@ public class LargestNumber {
         }
 
         if(countZeros == A.size()) return "0";
-                                                                            /*  We can also write it like this */
+                                                                            /*  We can also append it like this */
                                                                             //        String ans = "";
                                                                             //
                                                                             //        for(int i : A){
                                                                             //
                                                                             //            ans = ans + i;
                                                                             //        }
-        StringBuffer ans = new StringBuffer();
+        StringBuilder ans = new StringBuilder();
 
         for(int i : A){
 
