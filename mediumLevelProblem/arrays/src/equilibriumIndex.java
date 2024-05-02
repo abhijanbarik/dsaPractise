@@ -1,60 +1,66 @@
 public class equilibriumIndex {
     public static void main(String[] args) {
-        int[] ar = new int[]{1,7,3,6,5,6};
+        int[] ar = new int[]{-7, 1, 5, 2, -4, 3, 0};
+
         int ans = solve(ar);
+
         System.out.println(ans);
     }
 
     static int solve(int[] arr){
 
-        // TC: O(N) & SC: O(N)
+        /* More Optimised solution*/
+        // TC: O(N) & SC:O(1)
 
-        int[] pf = new int[arr.length];
-        pf[0] = arr[0];
-        for(int i = 1; i < arr.length; i++){
-            pf[i] = pf[i-1] + arr[i];
+        int N = arr.length;
+
+        int totalSum = 0;
+
+        for(int i : arr){
+
+            totalSum = totalSum + i;
         }
 
-        int count = 0, left, right;
+        int left = 0, right = totalSum;
 
-        for(int i = 0; i < pf.length; i++){
+        for(int i = 0; i < N; i++){
 
-            if(i == 0) left = 0;
-            else left = pf[i-1];
-
-            right = pf[pf.length - 1] - pf[i];
+            right = right - arr[i];
 
             if(left == right) return i;
+
+            left = left + arr[i];
         }
 
         return -1;
 
 
-        // Optimising space TC: O(N) & SC: O(1)
 
-        // int totalSum = 0;
 
-        // for (int num : A) {
+        // TC: O(N) & SC: O(N)
 
-        //     totalSum = totalSum + num;
-        // }
-
-        // int leftSum = 0;
-
-        // for (int i = 0; i < A.length; i++) {
-
-        //     if (i > 0) {
-
-        //         leftSum = leftSum + A[i - 1];
-        //     }
-
-        //     int rightSum = totalSum - leftSum - A[i];
-
-        //     if (leftSum == rightSum) {
-                
-        //         return i;
-        //     }
-        // }
-        // return -1;
+//        int[] pf = new int[arr.length];
+//
+//        pf[0] = arr[0];
+//
+//        for(int i = 1; i < arr.length; i++){
+//
+//            pf[i] = pf[i-1] + arr[i];
+//        }
+//
+//        int count = 0, left, right;
+//
+//        for(int i = 0; i < pf.length; i++){
+//
+//            if(i == 0) left = 0;
+//
+//            else left = pf[i-1];
+//
+//            right = pf[pf.length - 1] - pf[i];
+//
+//            if(left == right) return i;
+//        }
+//
+//        return -1;
     }
 }
