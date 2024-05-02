@@ -11,7 +11,7 @@ public class SubarraysWithBitwiseOR1 {
 
     public static long solve(int[] A){
 
-//        TC: O(N) & SC: O(1)
+//        TC: O(N) & SC: O(1) 
 
         long n = A.length;
 
