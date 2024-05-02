@@ -4,17 +4,17 @@ import java.io.*;
 public class Test {
     public static void main(String[] args) {
 
-        String A = "GUGPUAGAFQBMPYAGGAAOALAELGGGAOGLGEGZ";
+       int[] arr = new int[]{1, 2, 3, 4, 5};
 
-        System.out.println(solve(A));
+       int B = 6;
+
+       int[] ans = solve(arr, B);
+
+        System.out.println(Arrays.toString(ans));
     }
 
-    static int solve(String A) {
+    static int[] solve(int[] A, int B) {
 
-        
-
-
-        return 0;
+      return A;
     }
 }
-
