@@ -6,7 +6,7 @@ public class Test {
 
        int[] arr = new int[]{1, 2, 3, 4, 5};
 
-       int B = 6;
+       int B = 6; 
 
        int[] ans = solve(arr, B);
 
