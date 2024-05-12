@@ -1,20 +1,33 @@
-import java.util.*;
+
 import java.lang.*;
-import java.io.*;
 public class Test {
     public static void main(String[] args) {
 
-       int[] arr = new int[]{1, 2, 3, 4, 5};
 
-       int B = 6; 
+        String A = "the sky is blue";
 
-       int[] ans = solve(arr, B);
+        String ans = solve(A);
 
-        System.out.println(Arrays.toString(ans));
+        System.out.println(ans);
     }
 
-    static int[] solve(int[] A, int B) {
+    public static String solve(String A) {
 
-      return A;
+        String[] words = A.trim().split("\\s+");
+
+        StringBuilder reversed = new StringBuilder();
+
+        // Append words in reverse order
+        for (int i = words.length - 1; i >= 0; i--) {
+
+            reversed.append(words[i]);
+
+            if (i != 0) {
+
+                reversed.append(" ");
+            }
+        }
+
+        return reversed.toString();
     }
 }
