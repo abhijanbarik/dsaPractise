@@ -15,7 +15,7 @@ public class SubarrayAverageSum{
 
         // Sliding Window Technique
         // TC: O(N) & SC:O(1)
-
+        
 
         int N = A.length;
 
