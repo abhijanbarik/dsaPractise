@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="StringProblems.EasyProblems" target="21" />
+      <module name="StringProblems.EasyProblems.main" target="21" />
+      <module name="StringProblems.EasyProblems.test" target="21" />
+      <module name="StringProblems.main" target="21" />
+      <module name="StringProblems.MediumAndHardProblems" target="21" />
+      <module name="StringProblems.MediumAndHardProblems.main" target="21" />
+      <module name="StringProblems.MediumAndHardProblems.test" target="21" />
+      <module name="StringProblems.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

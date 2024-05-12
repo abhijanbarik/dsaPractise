@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/StringProblems/EasyProblems/EasyProblems.iml" filepath="$PROJECT_DIR$/StringProblems/EasyProblems/EasyProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringProblems/MediumAndHardProblems/MediumAndHardProblems.iml" filepath="$PROJECT_DIR$/StringProblems/MediumAndHardProblems/MediumAndHardProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringProblems/StringProblems.iml" filepath="$PROJECT_DIR$/StringProblems/StringProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.test.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediumAndHardProblems/StringProblems.MediumAndHardProblems.iml" filepath="$PROJECT_DIR$/.idea/modules/MediumAndHardProblems/StringProblems.MediumAndHardProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediumAndHardProblems/StringProblems.MediumAndHardProblems.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MediumAndHardProblems/StringProblems.MediumAndHardProblems.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MediumAndHardProblems/StringProblems.MediumAndHardProblems.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MediumAndHardProblems/StringProblems.MediumAndHardProblems.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediumLevelProblem/arrays/arrays.iml" filepath="$PROJECT_DIR$/mediumLevelProblem/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyProblems/arraysProblem/arraysProblem.iml" filepath="$PROJECT_DIR$/easyProblems/arraysProblem/arraysProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediumLevelProblem/bitManipulation/bitManipulation.iml" filepath="$PROJECT_DIR$/mediumLevelProblem/bitManipulation/bitManipulation.iml" />
