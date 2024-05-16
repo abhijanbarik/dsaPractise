@@ -11,7 +11,7 @@ public class StringPalindrome {
 
     public static String solve(String A){
 
-//        TC: O(N) & O(1)
+//        TC: O(N) & O(1) 
 
         int N = A.length();
 
