@@ -10,7 +10,7 @@ public class ReverseString {
 
     public static String solve(String A){
 
-//        TC: O(N) & SC: O(N)
+//        TC: O(N) & SC: O(N) 
 
         StringBuilder sb = new StringBuilder(A);
 
