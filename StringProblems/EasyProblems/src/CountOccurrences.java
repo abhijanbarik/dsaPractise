@@ -12,7 +12,7 @@ public class CountOccurrences {
 
     public static int solve(String A){
 
-        // TC: O(N) & SC: O(1)
+        // TC: O(N) & SC: O(1) 
 
         int N = A.length(), count = 0;
 
