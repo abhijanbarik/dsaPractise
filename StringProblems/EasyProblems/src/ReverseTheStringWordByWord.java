@@ -10,6 +10,8 @@ public class ReverseTheStringWordByWord {
 
     public static String solve(String A){
 
+//        TC: O(N) & SC: O(N)
+
         String[] charArr = A.trim().split("\\s+");
 
         StringBuilder S = new StringBuilder();
