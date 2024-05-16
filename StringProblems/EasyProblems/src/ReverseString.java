@@ -12,7 +12,7 @@ public class ReverseString {
 
 //        TC: O(N) & SC: O(N)
 
-        StringBuilder sb = new StringBuilder(A);
+        StringBuilder sb = new StringBuilder(A);                // StringBuilder occupies space in memory.
 
         int start = 0, end = A.length()-1;
 
@@ -29,7 +29,7 @@ public class ReverseString {
             end--;
         }
 
-        return sb.toString();
+        return sb.toString();                                  // Converting from StringBuilder to String will take O(N) time.
 
 //        StringBuilder sb = new StringBuilder(A).reverse();
 //        return sb.toString();
