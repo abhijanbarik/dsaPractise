@@ -48,7 +48,7 @@ public class LongestPalindromicSubstring {
 
             S.setLength(0);
 
-            S.append(A, start+1, end);
+            S.append(A.substring(start+1, end));
         }
 
         return maxLen;
