@@ -12,7 +12,7 @@ public class LongestPalindromicSubstring {
 
     public static String longestPalindrome(String A) {
 
-        // TC: O(N^2) & SC: O(N)
+        // TC: O(N^2) & SC: O(N) 
 
         int N = A.length();
 
