@@ -3,7 +3,7 @@ public class LongestPalindromicSubstring {
 
     public static void main(String[] args) {
 
-        String str = "acacacb";
+        String str = "aaaabaaa";
 
         String ans = longestPalindrome(str);
 
@@ -20,11 +20,13 @@ public class LongestPalindromicSubstring {
 
         StringBuilder S = new StringBuilder();
 
+        // Checking for odd-length palindromes
         for(int i = 0; i < N; i++){
 
             maxLen = solve(A, i, i, maxLen, S);
         }
 
+        // Checking for even-length palindromes
         for(int j = 0; j < N-1; j++){
 
             maxLen = solve(A, j, j+1, maxLen, S);
@@ -42,13 +44,13 @@ public class LongestPalindromicSubstring {
             end++;
         }
 
-        if(end-start-1 > maxLen){
+        if(end - start - 1  >  maxLen){
 
-            maxLen = end-start-1;
+            maxLen = end - start - 1;
 
             S.setLength(0);
 
-            S.append(A, start+1, end);
+            S.append(A.substring(start+1, end));
         }
 
         return maxLen;
