@@ -12,7 +12,7 @@ public class LongestCommonPrefix {
 
     public static String solve(String[] A){
 
-        // TC: O(NlogN) & SC: O(N)
+        // TC: O(NlogN) & SC: O(N) 
 
         int N = A.length;
 
