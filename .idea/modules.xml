@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/dsaPractise.iml" filepath="$PROJECT_DIR$/.idea/dsaPractise.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyProblems/easyProblems.iml" filepath="$PROJECT_DIR$/easyProblems/easyProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediumLevelProblem/mediumLevelProblem.iml" filepath="$PROJECT_DIR$/mediumLevelProblem/mediumLevelProblem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patternsProblem/patternsProblem.iml" filepath="$PROJECT_DIR$/patternsProblem/patternsProblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/testProg/testProg.iml" filepath="$PROJECT_DIR$/testProg/testProg.iml" />
     </modules>
   </component>
