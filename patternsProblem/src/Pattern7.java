@@ -23,7 +23,7 @@ public class Pattern7 {
                 System.out.print(" ");
             }
 
-            for(int col = 0; col < (2 * row) + 1; col++){
+            for(int col = 0; col < (2 * row) + 1; col++){ 
 
 
                 System.out.print("*");
