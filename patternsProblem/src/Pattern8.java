@@ -12,7 +12,7 @@ public class Pattern8 {
 
     }
 
-    public static void patternEight(int N){
+    public static void patternEight(int N){ 
 
         for(int row = 0; row < N; row++){
 
