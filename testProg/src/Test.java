@@ -4,4 +4,9 @@ public class Test {
 
 
     }
+
+    public static int solve(int[] A){
+
+        return 0;
+    }
 }
