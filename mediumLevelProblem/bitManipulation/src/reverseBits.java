@@ -11,7 +11,7 @@ public class reverseBits {
     public static long returnBit(long A) {
 
 
-        // Advance level is not as good as brute force TC: O(1) & SC: O(1)
+        // Advance level is not as good as brute force TC: O(1) & SC: O(1) 
         
         long rev = 0;
 
