@@ -12,7 +12,7 @@ public class ExcelColumn {
 
     public static int solve(String A){
 
-        // TC: O(N) & SC: O(1)
+        // TC: O(N) & SC: O(1) 
 
         int ans = 0, mul = 1;
 
