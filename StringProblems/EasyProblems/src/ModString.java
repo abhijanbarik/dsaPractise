@@ -13,7 +13,7 @@ public class ModString {
 
     public static int solve(String A, int B){
 
-        // TC: O(N) & SC: O(1)
+        // TC: O(N) & SC: O(1) 
 
         long ans = 0, exp = 1;
 
