@@ -12,6 +12,8 @@ public class DivisibilityBy8 {
 
     public static int solve(String A){
 
+        // TC: O(N) & SC: O(1)
+
         int N = A.length();
 
         int ans = 0;
