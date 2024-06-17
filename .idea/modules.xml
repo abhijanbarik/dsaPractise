@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StringProblems/EasyProblems/EasyProblems.iml" filepath="$PROJECT_DIR$/StringProblems/EasyProblems/EasyProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashingProblems/HashingProblems.iml" filepath="$PROJECT_DIR$/HashingProblems/HashingProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringProblems/MediumAndHardProblems/MediumAndHardProblems.iml" filepath="$PROJECT_DIR$/StringProblems/MediumAndHardProblems/MediumAndHardProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringProblems/StringProblems.iml" filepath="$PROJECT_DIR$/StringProblems/StringProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyProblems/StringProblems.EasyProblems.iml" />
