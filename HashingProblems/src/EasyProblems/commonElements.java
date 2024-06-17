@@ -15,7 +15,7 @@ public class commonElements {
 
     public static int[] solve(int[] A, int[] B){
 
-        //        TC: O(N + M + K) & SC: O(N + K)
+        //        TC: O(N + M + K) & SC: O(N + K) 
 
         int N = A.length, M = B.length;
 
