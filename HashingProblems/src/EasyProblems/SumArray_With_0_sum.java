@@ -17,11 +17,11 @@ public class SumArray_With_0_sum {
 //        TC: O(N) & SC: O(N)
         /* We can also solve this by PreFix-Sum method */
 
-        HashSet<Integer> hs = new HashSet<>();
+        HashSet<Long> hs = new HashSet<>();
 
-        int sum = 0;
+        long sum = 0;
 
-        for(int i : A){
+        for(long i : A){
 
             sum = sum + i;
 
