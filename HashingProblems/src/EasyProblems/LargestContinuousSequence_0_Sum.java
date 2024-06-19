@@ -13,7 +13,7 @@ public class LargestContinuousSequence_0_Sum {
     }
     public static int[] solve(int[] A){
 
-        // TC: O(N) & SC: O(N)
+        // TC: O(N) & SC: O(N) 
 
         int N = A.length;
 
