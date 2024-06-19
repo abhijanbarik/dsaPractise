@@ -15,7 +15,7 @@ public class ShaggyAndDistance {
 
     public static int solve(int[] A){
 
-        // TC: O(N) & SC: O(Ns)
+        // TC: O(N) & SC: O(N)
 
             int N = A.length;
 
