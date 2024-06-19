@@ -14,6 +14,8 @@ public class FindMaximumLength_Leetcode {
 
         public static int findMaxLength(int[] A) {
 
+            // TC: O(N) & SC: O(N)
+
             HashMap<Integer, Integer> hm = new HashMap<>();
 
             int ones = 0, zeroes = 0, maxLen = Integer.MIN_VALUE;
