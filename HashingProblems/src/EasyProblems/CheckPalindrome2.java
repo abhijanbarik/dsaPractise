@@ -12,7 +12,7 @@ public class CheckPalindrome2 {
 
     public static boolean solve(String A){
 
-//         TC: O(N) & SC: O(N)
+//         TC: O(N) & SC: O(N) 
         int N = A.length();
 
         HashSet<Character> hs = new HashSet<>();
