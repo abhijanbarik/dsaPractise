@@ -5,7 +5,7 @@ public class KOccurrences {
 
     public static void main(String[] args) {
 
-        int size = 8, freq = 3;        // Be mindful to change the size and freq as the testCases.
+        int size = 8, freq = 3;        // Be mindful to change the size and freq as-per the testCases.
 
         int[] arr = new int[]{2, 4, 2, 2, 1, 4, 5, 4};      // Testcases -> {1, 2, 2, 3, 3}, {0, 0, 1}, {1, 2, 3, 4, 5}
 
