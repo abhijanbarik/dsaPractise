@@ -15,7 +15,7 @@ public class KOccurrences {
     }
     public static int solve(int A, int B, int[] C){
 
-        // TC: O(N) & SC: O(N)
+        // TC: O(N) & SC: O(N) 
 
         int mod = 1000000007;
 
