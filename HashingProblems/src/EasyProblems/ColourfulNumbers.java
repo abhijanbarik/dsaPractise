@@ -11,7 +11,7 @@ public class ColourfulNumbers {
     }
     public static boolean solve(int A){
 
-        // TC: O(N) & SC: O(N)
+        // TC: O(N) & SC: O(N) 
 
         ArrayList<Integer> arr = new ArrayList<>();
 
