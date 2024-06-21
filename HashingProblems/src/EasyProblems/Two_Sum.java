@@ -14,7 +14,7 @@ public class Two_Sum {
 
     public static int[] solve(int[] A, int target){
 
-//        TC: O(N) & SC: O(N)
+//        TC: O(N) & SC: O(N) 
 
         Map<Integer, Integer> hm = new HashMap<>();
 
