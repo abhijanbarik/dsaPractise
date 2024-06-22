@@ -1,4 +1,4 @@
-package EasyProblems;
+package MediumProblems;
 import java.util.*;
 public class Diff_Two {
     public static void main(String[] args) {
