@@ -20,24 +20,24 @@ public class DistinctNumbers_In_Windows {
 
         int[] res = new int[N-K+1];
 
-        HashMap<Integer, Integer> hm = new HashMap<>();
+        HashMap<Integer, Integer> hm = new HashMap<>(); 
 
-        for(int i = 0; i < K; i++){
+        for(int idx = 0; idx < K; idx++){
 
-            hm.put(A[i], hm.getOrDefault(A[i], 0) + 1);
+            hm.put(A[idx], hm.getOrDefault(A[idx], 0) + 1);
         }
 
-        res[0] = hm.size();
+        res[0] = hm.size(); 
 
         int idx = 1;
 
-        for(int i = 1, j = K; i <= (N-K); i++, j++){
+        for(int start = 1, end = K; start <= (N-K); start++, end++){
 
-            hm.put(A[i-1], hm.get(A[i-1]) - 1);
+            hm.put(A[start-1], hm.get(A[start-1]) - 1);
 
-            if(hm.get(A[i-1]) == 0) hm.remove(A[i-1]);
+            if(hm.get(A[start-1]) == 0) hm.remove(A[start-1]);
 
-            hm.put(A[j], hm.getOrDefault(A[j], 0) + 1);
+            hm.put(A[end], hm.getOrDefault(A[end], 0) + 1);
 
             res[idx++] = hm.size();
         }
