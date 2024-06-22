@@ -11,7 +11,7 @@ public class SubarrayWithGivenSum {
 
     public static int[] solve(int[] A, int B) {
 
-        // TC: O(N) & SC: O(N)
+        // TC: O(N) & SC: O(N) 
 
         int N = A.length;
 
