@@ -14,7 +14,7 @@ public class DistinctNumbers_In_Windows {
 
     public static int[] solve(int[] A, int K){
 
-        // TC: O(N) & SC: O(N)
+        // TC: O(N) & SC: O(N) 
 
         int N = A.length;
 
