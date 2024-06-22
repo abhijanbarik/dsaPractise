@@ -3,8 +3,8 @@ import java.util.*;
 public class SubarrayWithGivenSum {
     public static void main(String[] args) {
 
-        int[] arr = new int[]{8, -2, 3, 4, 2, -1, 6};
-        int value = 5;
+        int[] arr = new int[]{8, -1, 4};    // arr[] -> {8, -2, 3, 4, 2, -1, 6}  & value = 5
+        int value = 8;
         int[] res = solve(arr, value);
         System.out.println(Arrays.toString(res));
     }
