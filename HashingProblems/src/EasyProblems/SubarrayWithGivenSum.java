@@ -19,7 +19,7 @@ public class SubarrayWithGivenSum {
 
         long sum = 0;
 
-        hm.put(0l, -1);
+        hm.put(0L, -1);
 
         int startIndex = -1, endIndex = -1;
 
