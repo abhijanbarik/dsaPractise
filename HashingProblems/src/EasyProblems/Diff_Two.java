@@ -13,7 +13,7 @@ public class Diff_Two {
     }
     public static boolean solve(int[] A, int B){
 
-        // TC: O(N) & SC: O(N)
+        // TC: O(N) & SC: O(N) 
 
         int N = A.length;
 
