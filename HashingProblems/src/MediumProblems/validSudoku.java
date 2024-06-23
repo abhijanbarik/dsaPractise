@@ -12,7 +12,7 @@ public class validSudoku {
 
     public static boolean solve(final String[] A){
 
-        // TC: O(1) & SC: O(1)
+        // TC: O(1) & SC: O(1) 
 
         HashSet<String> hs = new HashSet<>();
 
