@@ -13,7 +13,7 @@ public class IsDictonary {
     }
     public static boolean solve(String[] A, String B){
 
-        // TC: O(N) & SC: O(1)
+        // TC: O(N) & SC: O(1) 
 
         int N = A.length;
 
