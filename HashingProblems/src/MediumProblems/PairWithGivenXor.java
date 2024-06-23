@@ -15,7 +15,7 @@ public class PairWithGivenXor {
 
     public static int solve(int[] A, int val){
 
-        // TC: O(N) & SC: O(N) 
+        // TC: O(N) & SC: O(N)  
 
         int N = A.length;
 
