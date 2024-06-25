@@ -2,7 +2,7 @@ public class majorityElementOne {
 
     public static void main(String[] args) {
 
-        int[] arr = new int[]{4,4,2,4,3,4,4,3,2,4};
+        int[] arr = new int[]{1, 2, 3, 4, 5};           // {4,4,2,4,3,4,4,3,2,4}
 
         int ans = majorEle(arr);
 
