@@ -26,6 +26,7 @@ public class majorityElementOne {
         }
 
         // Check again if the majority value is greater than N/2;
+        // This below check is not required, if in question it's mentioned that Majority element always present.
 
         int freq = 0;
 
