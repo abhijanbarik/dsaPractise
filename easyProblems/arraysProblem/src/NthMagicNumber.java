@@ -10,7 +10,7 @@ public class NthMagicNumber {
 
     public static int solve(int A){
 
-        // TC: O(Log2(N)) & SC: O(1)
+        // TC: O(Log2(N)) & SC: O(1) 
 
         int res = 0, power = 5;
 
