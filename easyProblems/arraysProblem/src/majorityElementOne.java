@@ -11,7 +11,7 @@ public class majorityElementOne {
 
     public static int majorEle(int[] A){
 
-        // TC -> O(N) & SC -> O(1) 
+        // TC -> O(N) & SC -> O(1)
         // Applying Moore's Voting algo to get the major Element present;
 
         int count = 0, maxVal = 0, n = A.length;
@@ -26,7 +26,7 @@ public class majorityElementOne {
         }
 
         // Check again if the majority value is greater than N/2;
-        // This below check is not required, if in question it's mentioned that Majority element always present.
+        // This below check is not required, if in question it's mentioned that Majority element always present. 
 
         int freq = 0;
 
