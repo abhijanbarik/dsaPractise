@@ -5,9 +5,9 @@ public class ArrayComparator {
        List<Integer> arr = Arrays.asList(2, 3, 5, 1, 6, 7, 4, 8, 9, 11, 10, 12);
 
        // Sort in Ascending Order.
-        arr.sort(new Comparator<Integer>() {
+        Collections.sort(arr, new Comparator<Integer>(){
 
-            public int compare(Integer a, Integer b) {
+            public int compare(Integer a, Integer b){
 
                 return a - b;                             // Switch to Descending Order by doing return b - a;
             }
@@ -21,9 +21,9 @@ public class ArrayComparator {
 
         List<String> res = Arrays.asList("Mango", "Banana", "Apple", "Coconut");
 
-        res.sort(new Comparator<String>() {
+        Collections.sort(res, new Comparator<String>(){
 
-            public int compare(String a, String b) {
+            public int compare(String a, String b){
 
                 return a.compareTo(b);                      // Switch to Descending Order by doing return b.compareTo(a);
             }
