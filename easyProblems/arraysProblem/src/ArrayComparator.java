@@ -19,7 +19,7 @@ public class ArrayComparator {
 
         // String sorting
 
-        List<String> res = Arrays.asList("Mango", "Banana", "Apple", "Coconut", "Avocado");
+        List<String> res = Arrays.asList("Mango", "Banana", "Apple", "Coconut");
 
         Collections.sort(res, new Comparator<String>(){
 
