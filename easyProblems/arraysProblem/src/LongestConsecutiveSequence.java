@@ -11,6 +11,8 @@ public class LongestConsecutiveSequence {
 
     public static int solve(int[] A){
 
+        // TC: O(N) & SC: O(N)
+
         int N = A.length, maxVal = Integer.MIN_VALUE;
 
         HashSet<Integer> hs = new HashSet<>();
