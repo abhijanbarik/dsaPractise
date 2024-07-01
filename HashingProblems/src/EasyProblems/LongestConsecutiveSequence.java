@@ -1,4 +1,7 @@
-import java.util.*;
+package EasyProblems;
+
+import java.util.HashSet;
+
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {
 
